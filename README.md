@@ -1,7 +1,14 @@
 # cmpe-255-crime-analysis
-Crime data analysis and modeling
+Crime data analysis for the city of Los Angeles, CA.
 
-Copy the file 'Crime_Data_from_2020_to_Present_20240305.csv' to the 'datasets' folder before running EDA.ipynb
+## Running the code
+To reproduce analysis, please run all cells in `cmpe255_group4_final_analysis.ipynb`
 
-The dataset file can be found in the drive folder:
-https://drive.google.com/drive/folders/1TJdXmwFK5q_0xCLHhXoN71qtOBufKl5d
+## Files and fodlers
+- `cmpe255_group4_final_analysis.ipynb` contains all the data manipulation and analysis
+- `comm_pop.ipynb` extracts population by area data from a .csv cointaining census information
+- `geoJson_prop_extractor.ipynb` extracts some properties from given geoJson file
+- `coordinate_transformer.py` converts the coordinates in the geoJson file from one system to another
+- `colors.py` contains a mapping area_number -> color
+- `/dataseta` .csv and .geoJson files
+- `/choropleth_result` resulting choropleth maps in .html format
